@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    
+    <script
+      src="https://kit.fontawesome.com/7821157037.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="icon" href="images/safekey.ico" type="image/x-icon" />
+    <title>SafeKeyGen</title>
+  </head>
+  <body class="bg-black">
+    <section
+      class="ml-12 lg:ml-36 mr-12 lg:mr-36 pl-8 lg:pl-20 pr-8 lg:pr-20 bg-white pt-6 mt-12 rounded-xl mb-12"
+    >
+      <section class="mt-12 z-20 pb-28 mb-12">
+        <!-- Heading -->
+        <div class="headings">
+          <h1 class="font-serif text-lg lg:text-3xl">
+            <i class="fa-solid fa-key fa-xl" style="color: #c0c0c0"></i> Secure
+            Password Generator
+          </h1>
+        </div>
+
+        <br />
+        <hr />
+
+        <div class="info mt-6">
+          <!-- Password answer -->
+          <br /><br />
+
+          <div class="grid grid-cols-2 lg:grid-cols-2">
+            <div class="grid grid-row-5 gap-3">
+              <h1 class="font-serif lg:text-lg">Password Length</h1>
+              <h1 class="font-serif lg:text-lg">Contains Uppercase</h1>
+              <h1 class="font-serif lg:text-lg">Contains Lowercase</h1>
+              <h1 class="font-serif lg:text-lg">Contains Number</h1>
+              <h1 class="font-serif lg:text-lg">Contains Special character</h1>
+            </div>
+
+            <div class="grid grid-rows-5">
+              <input
+                class="len w-12 lg:w-36 border-[1px] rounded-sm pl-3 lg:text-lg font-serif sm:ml-20 sm:w-20 lg:-ml-2"
+                type="number"
+                name="length"
+                id="length"
+              />
+              <input
+                class="upp -ml-[54px] lg:-ml-[420px] mt-1 mb-1"
+                type="checkbox"
+                name=""
+                id=""
+              />
+              <input
+                class="low -ml-[54px] lg:-ml-[420px] mt-1 mb-1"
+                type="checkbox"
+                name=""
+                id=""
+              />
+              <input
+                class="num -ml-[54px] lg:-ml-[420px] mt-1 mb-1"
+                type="checkbox"
+                name=""
+                id=""
+              />
+              <input
+                class="spe -ml-[54px] lg:-ml-[420px] mt-1 mb-1"
+                type="checkbox"
+                name=""
+                id=""
+              />
+            </div>
+          </div>
+
+          <div class="lg:flex mt-9 justify-around">
+            <div>
+              <button
+                class="generate mt-4 text-lg font-serif p-2 border-[1px] rounded-md hover:bg-black hover:text-white"
+              >
+                Generate Password
+              </button>
+            </div>
+            <div class="lg:-ml-56">
+              <h1 class="code font-serif text-lg mt-6">
+                Password Generated...
+              </h1>
+            </div>
+          </div>
+          <br />
+        </div>
+        <div class="border-[1px] pl-2 pb-2">
+          <h1 class="mt-6 font-serif">
+            Uppercase Includes : [A, B, C, D, E ... Z]
+          </h1>
+          <h1 class="mt-2 font-serif">
+            Lowercase Includes : [a, b, c, d, e... z]
+          </h1>
+          <h1 class="mt-2 font-serif">
+            Number Includes : [0, 1, 2, 3, 4... 9]
+          </h1>
+          <h1 class="mt-2 font-serif">
+            Special character Includes : [!, @, #, $, %, ^, &, (, ), *, +, _, -,
+            ?, /, >]
+          </h1>
+        </div>
+      </section>
+
+      <hr />
+      <br /><br />
+      <section class="text-base font-serif">
+        <div>
+          <h1 class="font-semibold">
+            To prevent your passwords from being hacked by social engineering,
+            brute force or dictionary attack method, and keep your online
+            accounts safe, you should notice that:
+          </h1>
+          <br />
+          <ol>
+            <li class="list-decimal ml-3">
+              Do not use the same password, security question and answer for
+              multiple important accounts.
+            </li>
+            <li class="list-decimal ml-3">
+              Use a password that has at least 16 characters, use at least one
+              number, one uppercase letter, one lowercase letter and one special
+              symbol.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not use the names of your families, friends or pets in your
+              passwords.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not use postcodes, house numbers, phone numbers, birthdates, ID
+              card numbers, social security numbers, and so on in your
+              passwords.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not use any dictionary word in your passwords. Examples of
+              strong passwords: ePYHc~dS*)8$+V-' , qzRtC{6rXN3N\RgL ,
+              zbfUMZPE6`FC%)sZ. Examples of weak passwords: qwert12345,
+              Gbt3fC79ZmMEFUFJ, 1234567890, 987654321, nortonpassword.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not use something that can be cloned( but you can't change ) as
+              your passwords, such as your fingerprints
+            </li>
+            <li class="list-decimal ml-3">
+              Do not let your Web browsers( FireFox, Chrome, Safari, Opera, IE,
+              Microsoft Edge ) to store your passwords, since all passwords
+              saved in Web browsers can be revealed easily.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not log in to important accounts on the computers of others, or
+              when connected to a public Wi-Fi hotspot, Tor, free VPN or web
+              proxy.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not send sensitive information online via unencrypted( e.g.
+              HTTP or FTP ) connections, because messages in these connections
+              can be sniffed with very little effort. You should use encrypted
+              connections such as HTTPS, SFTP, FTPS, SMTPS, IPSec whenever
+              possible.
+            </li>
+            <li class="list-decimal ml-3">
+              It's recommended to change your passwords every 10 weeks.
+            </li>
+            <li class="list-decimal ml-3">
+              Encrypt and backup your passwords to different locations, then if
+              you lost access to your computer or account, you can retrieve your
+              passwords back quickly.
+            </li>
+            <li class="list-decimal ml-3">
+              Do not store your critical passwords in the cloud.
+            </li>
+          </ol>
+          <br />
+        </div>
+      </section>
+
+      
+    </section>
+
+    <footer class="bg-gray-900 text-white py-6">
+      <div class="container mx-auto flex justify-between items-center">
+          <p class="text-sm">&copy; 2023 SafeKeyGen. All rights reserved.</p>
+          <ul class="flex space-x-4">
+              <li><a href="#" class="hover:text-gray-400">Privacy Policy</a></li>
+              <li><a href="#" class="hover:text-gray-400">Terms of Service</a></li>
+              <li><a href="#" class="hover:text-gray-400">Contact Us</a></li>
+          </ul>
+      </div>
+  </footer>
+    <script type="module" src="script.js"></script>
+  </body>
+</html>
